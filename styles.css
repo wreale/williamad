@@ -1,0 +1,45 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f9f9f9;
+    color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0.5rem 0;
+  }
+  
+  nav a {
+    color: #0077ff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
